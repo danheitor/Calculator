@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #064663;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.calculator {
+    
+  margin: 200px auto;
+  text-align: center;
+  align-items: center;
+  width: 350px;
+  height: 400px;
+}
+.screen {
+  background-color: #fefefe;
+  padding: 20px;
+  text-align: end;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#display1 {
+    background-color: #CDC2AE;
+  height: 40px;
+  padding: 5px 5px 0px;
+}
+
+#display2 {
+    background-color: #CDC2AE;
+  min-height: 30px;
+  padding: 0px 5px 5px;
+  font-size: 1.5em;
+}
+
+.btns {
+  display: grid;
+  width: 350px;
+  height: 400px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  padding: 20px;
+  background-color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: gray;
+  transition: transform 0.3s;
+  scale: 1.1;
+  cursor: pointer;
+}
+
+button:active {
+  scale: 1.1;
+}
+
+#equals {
+  background-color: #FF5B00;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  border-bottom-right-radius: 8px;
+}
+
+#zero {
+  border-bottom-left-radius: 8px;
+  
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+}
+
+#git {
+    color: #041C32;
+    text-decoration: none;
+
+}
